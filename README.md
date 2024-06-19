@@ -28,7 +28,6 @@
 
 Este proyecto es la Open Class de la Carrera de Ciencia de Datos de la PUCE. Se aborda el tema de «Ciencia de Datos para el procesamiento de imágenes». 
 
-
 ### Construido con
 
 ![Jupyter Badge](https://img.shields.io/badge/Jupyter-F37626?logo=jupyter&logoColor=fff&style=for-the-badge) ![Python Badge](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff&style=for-the-badge)
@@ -37,6 +36,10 @@ Este proyecto es la Open Class de la Carrera de Ciencia de Datos de la PUCE. Se 
 
 En esta Open Class se abordará el tema de «Ciencia de Datos para el procesamiento de imágenes». Se presentará una introducción a la matemática detrás de las imágenes digitales, y se mostrará cómo se pueden aplicar técnicas de procesamiento de imágenes en Python, pasando por la aplicación de filtros y la detección objetos.
  
+En el archivo [`OpenClass-CienciaDeDatos-PUCE.ipynb`](OpenClass-CienciaDeDatos-PUCE.ipynb) se encuentra el contenido de la Open Class. También se proporciona el archivo [`OpenClassCienciaDeDatos - estudiante.ipynb`](OpenClassCienciaDeDatos%20-%20estudiante.ipynb) que es una versión del archivo anterior con los espacios en blanco para que los estudiantes puedan completar durante la clase. Por otro lado, en el archivo [`Código.txt`](Código.txt) se encuentra el código que puede ser usado por los estudiantes para completar el archivo anterior.
+
+Adicionalmente, la presentación que se utiliza durante la Open Class se encuentra en el archivo [`OpenClass_CD_Imagenes_Presentacion.pdf`](Presentacion/OpenClass_CD_Imagenes_Presentacion.pdf).
+
  
 ## Créditos
 
