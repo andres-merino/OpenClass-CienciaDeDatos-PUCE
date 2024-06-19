@@ -1,0 +1,74 @@
+\documentclass[aspectratio=169]{beamer}
+% -- Formato
+\input{formatoBeamerPUCE}
+
+% -- Paquetes adicionales
+\usepackage{aleph-comandos}
+
+% -- Comandos extra
+
+
+% -- Datos
+\title{Ciencia de Datos para el reconocimiento de imágenes}
+% \subtitle{}
+\author{Mat. Andrés Merino, MSc}
+\institute{Carrera de Ciencia de Datos}
+\date{Junio - 2024}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Página de título
+\fondo{inicio}
+\begin{frame}[plain]
+\addtocounter{framenumber}{-1}
+    \titlepage
+\end{frame}
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %% Página de índice 
+% \fondo{blanco}
+% \begin{frame}[plain]
+%     \titulo{Contendio}
+    
+%     \tableofcontents
+% \end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Sección 1
+\include{Secciones/01Motivacion}
+%% Sección 2
+\include{Secciones/02Matrices}
+%% Sección 3
+\include{Secciones/03Imagenes}
+%% Sección 4
+\include{Secciones/04Color}
+%% Sección 5
+\include{Secciones/05Filtros}
+
+
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %% Página de referencias
+% \begin{frame}[allowframebreaks]    
+%     \titulo{Bibliografía}
+%     \bibliographystyle{apalike}
+%     \nocite{*}
+%     \bibliography{referencias.bib}
+% \end{frame}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Página final
+\fondo{final}
+\begin{frame}[plain]
+\begin{center}
+    \color{white}
+    {\Huge\textbf{¡Estudia Ciencia de Datos!}}
+
+    \vspace{1cm}
+    \textcolor{azul}{\textbf{Contacto:}} aemerinot@puce.edu.ec
+\end{center}
+\end{frame}
+
+
+\end{document}
